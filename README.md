@@ -8,12 +8,12 @@ Remplacez seulement "SERVEUR.JAR" par le nom de votre lanceur 1.16.X, et "RAM" p
 Les deux valeurs RAM doivent êtres identiques, pour un meilleur fonctionnement.
 Laissez égallement 4 go de marge à la ram. (2go au système et 2go au serveur)
 
-                Exemple:
+Exemple:
 
 J'ai un serveur avec 16go de ram
 Je dois donc allouer 12 go de ram à mon serveur.
 
-             Les java argument:
+Les java argument:
 
 
 Java argument si vous utilisez moin de 12 go de ram:
