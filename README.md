@@ -29,4 +29,4 @@ Je vous conseil égallement d'évité les plugins de type clear lag, ou les plug
 Des questions ?
 
 Contactez moi via le discord de KingPerf par ticket, ou par message privé.
-Je répond au demandes quand j'ai le temps donc merci de ne pas me spamer.
+Je répond aux demandes quand j'ai le temps donc merci de ne pas me spamer.
