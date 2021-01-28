@@ -1,0 +1,48 @@
+chunk-gc:
+  period-in-ticks: 400
+aliases: now-in-commands.yml
+settings:
+  shutdown-message: Sauvegarde de vos donnees en cours. Veuillez patientez puis vous
+    reconnectez...
+  minimum-api: none
+  allow-end: true
+  warn-on-overload: true
+  spawn-radius: 16
+  permissions-file: permissions.yml
+  update-folder: update
+  ping-packet-limit: 100
+  use-exact-login-location: false
+  plugin-profiling: false
+  connection-throttle: 4000
+  query-plugins: true
+  deprecated-verbose: default
+spawn-limits:
+  water-ambient: 2
+  ambient: 1
+  monsters: 50
+  animals: 8
+  water-animals: 3
+ticks-per:
+  water-spawns: 1
+  water-ambient-spawns: 1
+  ambient-spawns: 1
+  animal-spawns: 400
+  monster-spawns: 4
+  autosave: 6000
+auto-updater:
+  enabled: true
+  on-broken:
+  - warn-console
+  - warn-ops
+  on-update:
+  - warn-console
+  - warn-ops
+  preferred-channel: rb
+  host: dl.bukkit.org
+  suggest-channels: true
+database:
+  username: bukkit
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db
