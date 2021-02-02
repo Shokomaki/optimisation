@@ -24,7 +24,7 @@ Java argument si vous utilisez plus de 12 go de ram:
 
 java -XmsRAMG -XmxRAMG -Duser.timezone=Europe/Paris -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=40 -XX:G1MaxNewSizePercent=50 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=15 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=20 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Xlog:gc*:logs/gc.log:time,uptime:filecount=5,filesize=1M -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar SERVER.JAR nogui
 
-Je vous conseil égallement d'évité les plugins de type clear lag, ou les plugins de la team songoda qui sont très mal optimisé.
+Je vous conseil égallement d'éviter les plugins de type clear lag, ou les plugins de la team songoda qui sont très mal optimisé.
 
 Des questions ?
 
